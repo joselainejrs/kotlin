@@ -1,4 +1,6 @@
 // 1. Escreva um programa em Kotlin que imprima &#39;Olá, mundo!&#39; na tela.
+// 2. Crie uma função em Kotlin que receba dois números inteiros como parâmetros, some-os e retorne o resultado.
+
 
 // V1
 fun main() {
@@ -21,9 +23,6 @@ fun main(args: Array<String>){
     }
 
 }
-
-
-// 2. Crie uma função em Kotlin que receba dois números inteiros como parâmetros, some-os e retorne o resultado.
 
 fun soma(a: Int, b: Int): Int{
     return a + b
