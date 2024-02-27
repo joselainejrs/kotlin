@@ -9,9 +9,15 @@ fun main(){
 
 // v2 
 fun main(args: Array<String>){
-	println("Soma dos valores são ${soma(args.map {it.toInt()} )}")
-    println("Soma dos valores da segunda soma são ${soma2(args.map {it.toInt()} )}")
+    if(args.isNotEmpty()){
+        println("Soma dos valores são ${soma(args.map {it.toInt()} )}")
+        println("Soma dos valores da segunda soma são ${soma2(args.map {it.toInt()} )}")
+    }else{
+        println("Nenhuma valor fornecida.")
+    }
 }
+
+// ------------------------------
 
 fun soma(lista: List<Int>): Int{
     return lista.sum()

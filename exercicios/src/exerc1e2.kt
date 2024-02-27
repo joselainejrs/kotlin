@@ -1,13 +1,12 @@
 // 1. Escreva um programa em Kotlin que imprima &#39;Olá, mundo!&#39; na tela.
 
 // V1
-// fun main() {
-//     println("Ola, mundo!")
-//     println(soma(5, 6))
-// }
+fun main() {
+    println("Ola, mundo!")
+    println(soma(5, 6))
+}
 
 // V2
-
 fun main(args: Array<String>){
     if(args.size == 2){
         try {
@@ -22,6 +21,8 @@ fun main(args: Array<String>){
     }
 
 }
+
+
 // 2. Crie uma função em Kotlin que receba dois números inteiros como parâmetros, some-os e retorne o resultado.
 
 fun soma(a: Int, b: Int): Int{
